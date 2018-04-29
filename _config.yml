@@ -80,3 +80,6 @@ scheme: Mist
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: git@github.com:binderclip/xxmq.git
+  branch: gh-pages
+  message: update posts
