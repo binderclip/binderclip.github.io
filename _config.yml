@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: clip 小象木起
-subtitle:
-description: 可公开的小象木起集合
+title: clip's 小象木起
+subtitle: 可以公开的小象木起集合
+description: 小象木起（xxmq）是把一件事情当做一个小项目来处理，记录过程和结果中有用内容便于之后查阅的一张记录方式。这里是 clip 的公开小象木起合集，类似于个人博客。
 keywords:
 author: clip
 language: zh
@@ -81,5 +81,5 @@ scheme: Mist
 deploy:
   type: git
   repo: git@github.com:binderclip/binderclip.github.io.git
-  branch: gh-pages
+  branch: master
   message: update posts
