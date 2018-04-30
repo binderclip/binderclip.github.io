@@ -12,7 +12,7 @@ categories: 🗂org
 
 ## 岳昕事件
 
-国内平台上转发的岳昕事件相关的文章多被 404，后来有人把相关的文章汇总到了 GitHub 的 [Xin-Yue](https://github.com/sikaozhe1997/Xin-Yue/issues/706) 仓库里，不用担心被 404 的问题，又因为 GitHub 没有被墙，所以得到了一些传播。
+国内平台上转发的岳昕事件相关的文章多被 404，后来有人把相关的文章汇总到了 GitHub 的 [Xin-Yue](https://github.com/sikaozhe1997/Xin-Yue/) 仓库里，不用担心被 404 的问题，又因为 GitHub 没有被墙，所以得到了一些传播。
 
 虽然项目的链接后来还是被微信屏蔽了，之前这个屏蔽多出现在一些病毒营销的裂变活动上。
 
