@@ -83,3 +83,9 @@ deploy:
   repo: git@github.com:binderclip/binderclip.github.io.git
   branch: master
   message: update posts
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
