@@ -102,29 +102,24 @@
 
 
 
-  <meta name="description" content="之前自己一直有个疑惑就是 GitHub 里面是不是只能放一些技术相关的内容。编程的项目肯定没问题，相关的一些教程啊之类的也很合适，和技术沾点边、比较极客的似乎也没毛病。但是那种完全技术不相干也不怎么极客的比如生活类的 blog、甚至小说如果用 GitHub 的话合适吗？ 之前自认为不合适所以也就没有深究。直到因为岳昕事件才获得了一点和这个问题相关的情报。 岳昕事件国内平台上转发的岳昕事件相关的文章">
+  <meta name="description" content="合理使用抽象会帮助我们理解。下面是一些用过的抽象。 playground 可以马上开始做做实验、打打草稿的地方 可以建一个空文件用来随手写实验代码 最早看到应该是苹果的 Swift Playgrounds  === 等后面有时间了再做，放在 todo list 的标题里  、、、 表示持续更新的主题  YY 表示一次有用（You Yong） 从语雀的稻谷得到的启发，有一次用上了这个东西就可以标一次">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GitHub 当做一个基础服务">
-<meta property="og:url" content="http://xxmq.cliiip.com/github-as-a-base-service/index.html">
+<meta property="og:title" content="一些抽象、、、">
+<meta property="og:url" content="http://xxmq.cliiip.com/0004-some-abstractions___/index.html">
 <meta property="og:site_name" content="clip&#39;s 小象木起">
-<meta property="og:description" content="之前自己一直有个疑惑就是 GitHub 里面是不是只能放一些技术相关的内容。编程的项目肯定没问题，相关的一些教程啊之类的也很合适，和技术沾点边、比较极客的似乎也没毛病。但是那种完全技术不相干也不怎么极客的比如生活类的 blog、甚至小说如果用 GitHub 的话合适吗？ 之前自认为不合适所以也就没有深究。直到因为岳昕事件才获得了一点和这个问题相关的情报。 岳昕事件国内平台上转发的岳昕事件相关的文章">
+<meta property="og:description" content="合理使用抽象会帮助我们理解。下面是一些用过的抽象。 playground 可以马上开始做做实验、打打草稿的地方 可以建一个空文件用来随手写实验代码 最早看到应该是苹果的 Swift Playgrounds  === 等后面有时间了再做，放在 todo list 的标题里  、、、 表示持续更新的主题  YY 表示一次有用（You Yong） 从语雀的稻谷得到的启发，有一次用上了这个东西就可以标一次">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://qn.cdn.cliiip.com/imgs/u/5c0ecc04-a021-4496-914e-b8b95185c6e8.png">
-<meta property="og:image" content="https://qn.cdn.cliiip.com/imgs/u/a73f35c6-b4f7-4d08-9d68-572084a95630.png">
-<meta property="og:image" content="https://qn.cdn.cliiip.com/imgs/u/46d11a5b-680e-44c3-9b49-65de5249e0c8.png">
-<meta property="og:image" content="https://qn.cdn.cliiip.com/imgs/u/3533a42f-f357-4b76-bb03-2f31ab09dccf.png">
-<meta property="og:updated_time" content="2018-04-30T03:01:20.000Z">
+<meta property="og:updated_time" content="2018-06-10T02:05:54.683Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="GitHub 当做一个基础服务">
-<meta name="twitter:description" content="之前自己一直有个疑惑就是 GitHub 里面是不是只能放一些技术相关的内容。编程的项目肯定没问题，相关的一些教程啊之类的也很合适，和技术沾点边、比较极客的似乎也没毛病。但是那种完全技术不相干也不怎么极客的比如生活类的 blog、甚至小说如果用 GitHub 的话合适吗？ 之前自认为不合适所以也就没有深究。直到因为岳昕事件才获得了一点和这个问题相关的情报。 岳昕事件国内平台上转发的岳昕事件相关的文章">
-<meta name="twitter:image" content="https://qn.cdn.cliiip.com/imgs/u/5c0ecc04-a021-4496-914e-b8b95185c6e8.png">
+<meta name="twitter:title" content="一些抽象、、、">
+<meta name="twitter:description" content="合理使用抽象会帮助我们理解。下面是一些用过的抽象。 playground 可以马上开始做做实验、打打草稿的地方 可以建一个空文件用来随手写实验代码 最早看到应该是苹果的 Swift Playgrounds  === 等后面有时间了再做，放在 todo list 的标题里  、、、 表示持续更新的主题  YY 表示一次有用（You Yong） 从语雀的稻谷得到的启发，有一次用上了这个东西就可以标一次">
 
 
 
 
 
 
-  <link rel="canonical" href="http://xxmq.cliiip.com/github-as-a-base-service/"/>
+  <link rel="canonical" href="http://xxmq.cliiip.com/0004-some-abstractions___/"/>
 
 
 
@@ -134,7 +129,7 @@
   };
 </script>
 
-  <title>GitHub 当做一个基础服务 | clip's 小象木起</title>
+  <title>一些抽象、、、 | clip's 小象木起</title>
   
 
 
@@ -290,7 +285,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xxmq.cliiip.com/github-as-a-base-service/">
+    <link itemprop="mainEntityOfPage" href="http://xxmq.cliiip.com/0004-some-abstractions___/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="clip">
@@ -307,7 +302,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">GitHub 当做一个基础服务
+          <h1 class="post-title" itemprop="name headline">一些抽象、、、
               
             
           </h1>
@@ -332,24 +327,12 @@
                 
               
 
-              <time title="创建时间：2018-04-29 16:45:05" itemprop="dateCreated datePublished" datetime="2018-04-29T16:45:05+08:00">2018-04-29</time>
+              <time title="创建时间：2018-06-10 09:52:23 / 修改时间：10:05:54" itemprop="dateCreated datePublished" datetime="2018-06-10T09:52:23+08:00">2018-06-10</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-04-30 11:01:20" itemprop="dateModified" datetime="2018-04-30T11:01:20+08:00">2018-04-30</time>
               
             
           </span>
@@ -381,9 +364,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/github-as-a-base-service/#comments" itemprop="discussionUrl">
+                <a href="/0004-some-abstractions___/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="github-as-a-base-service/" itemprop="commentCount"></span>
+                        data-disqus-identifier="0004-some-abstractions___/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -411,33 +394,31 @@
       
 
       
-        <p>之前自己一直有个疑惑就是 GitHub 里面是不是只能放一些技术相关的内容。编程的项目肯定没问题，相关的一些教程啊之类的也很合适，和技术沾点边、比较极客的似乎也没毛病。但是那种完全技术不相干也不怎么极客的比如生活类的 blog、甚至小说如果用 GitHub 的话合适吗？</p>
-<p>之前自认为不合适所以也就没有深究。直到因为岳昕事件才获得了一点和这个问题相关的情报。</p>
-<h2 id="岳昕事件"><a href="#岳昕事件" class="headerlink" title="岳昕事件"></a>岳昕事件</h2><p>国内平台上转发的岳昕事件相关的文章多被 404，后来有人把相关的文章汇总到了 GitHub 的 <a href="https://github.com/sikaozhe1997/Xin-Yue/" target="_blank" rel="noopener">Xin-Yue</a> 仓库里，不用担心被 404 的问题，又因为 GitHub 没有被墙，所以得到了一些传播。</p>
-<p>虽然项目的链接后来还是被微信屏蔽了，之前这个屏蔽多出现在一些病毒营销的裂变活动上。</p>
-<p><img src="https://qn.cdn.cliiip.com/imgs/u/5c0ecc04-a021-4496-914e-b8b95185c6e8.png" alt="wechat ban page"></p>
-<h2 id="Xin-Yue-项目里的争论"><a href="#Xin-Yue-项目里的争论" class="headerlink" title="Xin-Yue 项目里的争论"></a>Xin-Yue 项目里的争论</h2><p>关于这个项目很多人展开了争论，反对意见主要有两点：</p>
-<ol>
-<li>GitHub 是技术社区，这个内容和技术没关系，应该放到其他地方去</li>
-<li>GitHub 没有被墙已经很难得了，不要因为这个导致 GitHub 被墙</li>
-</ol>
-<p>下面是汇总讨论的两个 issue</p>
-<ul>
-<li><a href="https://github.com/sikaozhe1997/Xin-Yue/issues/530" target="_blank" rel="noopener">[Discussion] 该 repo 发在 GitHub 上是否合适 · Issue #530 · sikaozhe1997/Xin-Yue</a></li>
-<li><a href="https://github.com/sikaozhe1997/Xin-Yue/issues/706" target="_blank" rel="noopener">[Discussion] 建议移步Gitbook · Issue #706 · sikaozhe1997/Xin-Yue</a></li>
+        <p>合理使用抽象会帮助我们理解。下面是一些用过的抽象。</p>
+<h3 id="playground"><a href="#playground" class="headerlink" title="playground"></a>playground</h3><ul>
+<li>可以马上开始做做实验、打打草稿的地方</li>
+<li>可以建一个空文件用来随手写实验代码</li>
+<li>最早看到应该是苹果的 Swift Playgrounds</li>
 </ul>
-<h2 id="微博上-Fenng-发起的讨论"><a href="#微博上-Fenng-发起的讨论" class="headerlink" title="微博上 Fenng 发起的讨论"></a>微博上 Fenng 发起的讨论</h2><p>除了放到 GitHub，还有人把文章写到了区块链上，微博上 Fenng 关于这个发起了讨论询问大家看法，我自己也评论了下。</p>
-<p><img src="https://qn.cdn.cliiip.com/imgs/u/a73f35c6-b4f7-4d08-9d68-572084a95630.png" alt="weibo-comment"></p>
-<p>当天下午自己的微博大概是因为这个被禁言了 15 天。</p>
-<p><img src="https://qn.cdn.cliiip.com/imgs/u/46d11a5b-680e-44c3-9b49-65de5249e0c8.png" alt="weibo-ban"></p>
-<h2 id="向-GitHub-官方发提问"><a href="#向-GitHub-官方发提问" class="headerlink" title="向 GitHub 官方发提问"></a>向 GitHub 官方发提问</h2><p>后来在网上搜索 GitHub 对内容的规定，没有找到确定的答案，就直接去问官方上面说的的 Xin-Yue 项目是不是合规的，得到了下面的肯定答复：</p>
-<p><img src="https://qn.cdn.cliiip.com/imgs/u/3533a42f-f357-4b76-bb03-2f31ab09dccf.png" alt="github-reply"></p>
-<ul>
-<li>首先这个项目目前合规</li>
-<li>然后虽然主要是为托管代码和软件工程师协作服务，但 GitHub 也鼓励用户对仓库有创造性的用法</li>
+<h3 id=""><a href="#" class="headerlink" title="==="></a>===</h3><ul>
+<li>等后面有时间了再做，放在 todo list 的标题里</li>
 </ul>
-<h2 id="GitHub-当做一个基础服务"><a href="#GitHub-当做一个基础服务" class="headerlink" title="GitHub 当做一个基础服务"></a>GitHub 当做一个基础服务</h2><p>利用 GitHub 的可以用一次一次的 commit 来对文件做版本控制，以及可以多人协作的特性，就可以做挺多有趣的事情了。希望之后 GitHub 可以像一个基础服务一样的给各种项目提供服务。</p>
-<p>然后现在这个类似博客的不只是技术内容的小象木起也就安心的搭建起来了！会分享可能对一些人有用的情报。</p>
+<h3 id="、、、"><a href="#、、、" class="headerlink" title="、、、"></a>、、、</h3><ul>
+<li>表示持续更新的主题</li>
+</ul>
+<h3 id="YY"><a href="#YY" class="headerlink" title="YY"></a>YY</h3><ul>
+<li>表示一次有用（You Yong）</li>
+<li>从语雀的稻谷得到的启发，有一次用上了这个东西就可以标一次 YY</li>
+</ul>
+<h3 id="code-snippets-xxx"><a href="#code-snippets-xxx" class="headerlink" title="code-snippets-xxx"></a>code-snippets-xxx</h3><ul>
+<li>xxx 的代码片段</li>
+<li>可以是某种语言，也可以是某个工具</li>
+<li>后面极有可能再遇到的小知识点</li>
+</ul>
+<h3 id="xxmq"><a href="#xxmq" class="headerlink" title="xxmq"></a>xxmq</h3><ul>
+<li>一次做小项目的记录，有过程中有用的东西</li>
+<li>参考：<a href="https://www.jianshu.com/p/8e8e2054963d" target="_blank" rel="noopener">只有小象木起才能救 clip - 简书</a></li>
+</ul>
 
       
     </div>
@@ -465,15 +446,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/0003-clip-has-some-problems/" rel="next" title="clip 遇到了一些问题">
+                <i class="fa fa-chevron-left"></i> clip 遇到了一些问题
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/wechat-webview-error-code/" rel="prev" title="微信“网络出错，轻触屏幕重新加载:-xxxx”错误码含义">
-                微信“网络出错，轻触屏幕重新加载:-xxxx”错误码含义 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -614,7 +595,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#岳昕事件"><span class="nav-number">1.</span> <span class="nav-text">岳昕事件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Xin-Yue-项目里的争论"><span class="nav-number">2.</span> <span class="nav-text">Xin-Yue 项目里的争论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#微博上-Fenng-发起的讨论"><span class="nav-number">3.</span> <span class="nav-text">微博上 Fenng 发起的讨论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#向-GitHub-官方发提问"><span class="nav-number">4.</span> <span class="nav-text">向 GitHub 官方发提问</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-当做一个基础服务"><span class="nav-number">5.</span> <span class="nav-text">GitHub 当做一个基础服务</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#playground"><span class="nav-number">1.</span> <span class="nav-text">playground</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#"><span class="nav-number">2.</span> <span class="nav-text">===</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#、、、"><span class="nav-number">3.</span> <span class="nav-text">、、、</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#YY"><span class="nav-number">4.</span> <span class="nav-text">YY</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#code-snippets-xxx"><span class="nav-number">5.</span> <span class="nav-text">code-snippets-xxx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#xxmq"><span class="nav-number">6.</span> <span class="nav-text">xxmq</span></a></li></ol></div>
             
 
           </div>
@@ -768,9 +749,9 @@
   
     <script type="text/javascript">
       var disqus_config = function () {
-        this.page.url = 'http://xxmq.cliiip.com/github-as-a-base-service/';
-        this.page.identifier = 'github-as-a-base-service/';
-        this.page.title = 'GitHub 当做一个基础服务';
+        this.page.url = 'http://xxmq.cliiip.com/0004-some-abstractions___/';
+        this.page.identifier = '0004-some-abstractions___/';
+        this.page.title = '一些抽象、、、';
       };
       function loadComments () {
         var d = document, s = d.createElement('script');
